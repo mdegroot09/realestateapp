@@ -1,22 +1,55 @@
-.App {
-  text-align: center;
-}
+@import './Components/Navbar/Navbar';
+@import './Components/Home/Home';
+@import './Components/PostShow/Post';
+@import './Components/Comments/Comment';
+@import './Components/Auths/Auths';
+@import './Components/NewPost/NewPost';
+@import './Components/NewPostElements/NewPostElements';
+@import './Components/NewElement/NewElement';
+@import './Components/Quote/Quote.scss';
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
+body {
   min-height: 100vh;
+  width: calc(100vw - (100vw - 100%));
+  background-image: linear-gradient(90deg, #3FFFFB, #2b9fdd);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: 'Handlee', cursive;
+  z-index: -2;
+}
+
+#root {
+  min-height: inherit;
+  width: inherit;
+}
+
+.App {
+  min-height: inherit;
+  width: inherit;
+  text-align: center;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-self: center;
+  align-self: flex-start;
+  cursor: default;
 }
 
-.App-link {
-  color: #09d3ac;
+.loginSuccess {
+  position: fixed;
+  top: 85px;
+  background: rgba(0, 128, 0, 0.808);
+  color: white;
+  z-index: 1;
+  border-radius: 5px;
+  display: none;
+  font-size: 20px;
+  padding: 5px 20px;
+}
+
+.loginFail {
+  background: rgba(255, 0, 0, 0.808);
+  display: none;
 }
