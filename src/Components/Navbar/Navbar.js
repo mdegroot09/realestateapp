@@ -178,7 +178,7 @@ class Navbar extends Component {
               style={{height: '200%', transform: `rotate(${window.scrollY * .30}deg)`}} 
               src="https://www.rawshorts.com/freeicons/wp-content/uploads/2017/01/blue_spacepict10_1484336621-1.png" alt=""/>
             <div className='navLogo'>
-              <h3 className='navTitle'>Simple Joys</h3>
+              <h3 className='navTitle'>Real Estate App</h3>
             </div>
             <div className='navDivRight'>
               {this.props.userFirstName 
