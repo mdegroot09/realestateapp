@@ -1,0 +1,76 @@
+.postDivider {
+  height: 40px;
+  width: 100%;
+}
+
+.showPost {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.fullPostTextDiv {
+  margin: 10px;
+  margin-top: 0;
+}
+
+.fullPostText {
+  margin: 0;
+  text-align: left;
+  width: 100%;
+}
+
+.mainPhoto {
+  width: 150px;
+  height: 150px;
+  align-self: center;
+  margin: 10px 0;
+  border-radius: 8px;
+  padding-bottom: calc(100% - 250px);
+  padding-left: calc(100% - 150px);
+}
+
+.makeGray1 {
+  filter: invert(25%);
+}
+
+.makeGray2 {
+  filter: invert(40%);
+}
+
+.editPost {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.editIcon {
+  height: 30px;
+  cursor: pointer;
+}
+
+.deletePost {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.deleteIcon {
+  height: 30px;
+  cursor: pointer;
+}
+
+@media(max-width: 1200px){
+  .postDivider {
+    height: 20px;
+  }
+}
+
+@media(max-width: 800px){
+  .postDivider {
+    height: 10px;
+  }
+}

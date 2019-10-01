@@ -1,0 +1,55 @@
+.comment {
+  width: calc(100% - 40px);
+  max-width: 400px;
+  min-height: 45px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(224, 224, 224);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.commentText {
+  margin: 5px 0 0 20px;
+  text-align: left;
+}
+
+.commentInputDiv {
+  margin-left: 20px;
+  max-width: calc(100% - 20px);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.commentInput {
+  width: 60%;
+  margin-bottom: 0;
+  align-self: center;
+}
+
+.commentBtnDiv {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.commentBtn {
+  margin: 0 0 0 10px;
+  width: calc(100% - 10px);
+  max-width: 90px;
+}
+
+.commentBtnAuth {
+  margin: 0;
+  width: calc(100% - 10px);
+  max-width: 170px;
+  align-self: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}

@@ -1,0 +1,44 @@
+.postElement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom: 1px solid gray;
+  width: calc(100% - 2px);
+  margin: 0 1px;
+  padding: 5px 0;
+}
+
+.quotePerson {
+  align-self: center;
+  margin: 0 0 0 10px;
+}
+
+.quoteInput {
+  display: flex;
+}
+
+.newPostHeader {
+  margin: 0 20px;
+}
+
+.textArea {
+  height: 200px;
+  overflow: auto;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.quoteText {
+  font-style: italic;
+  height: 100px;
+  width: 200px;
+  overflow: auto;
+  border-radius: 5px;
+}
+
+.paragraph {
+  width: calc(100% - 20px);
+  display: flex;
+  justify-content: flex-start;
+}

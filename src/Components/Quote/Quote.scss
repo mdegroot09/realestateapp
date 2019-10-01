@@ -1,0 +1,15 @@
+.quoteBackground {
+  background: rgb(231, 231, 231);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  max-width: calc(100% - 30px);
+  margin: 5px 0;
+}
+
+.quote {
+  font-size: 30px;
+  margin: 10px 10px;
+  text-align: center;
+  max-width: calc(100% - 20px);
+}
