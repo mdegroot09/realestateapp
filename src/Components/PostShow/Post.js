@@ -3,6 +3,7 @@ import {connect} from 'react-redux'
 import Comments from '../Comments/Comments';
 import {withRouter} from 'react-router-dom';
 import moment from 'moment'
+import Footer from '../Footer/Footer'
 import axios from 'axios'
 
 class Post extends Component {
@@ -233,6 +234,7 @@ class Post extends Component {
             addComment={this.addComment}
             deleteComment={this.deleteComment}
           />
+          <Footer/>
         </div>
       </div>
     )
