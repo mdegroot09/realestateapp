@@ -137,8 +137,11 @@
 .homeDuoDiv {
   margin-top: 2px;
   display: flex;
-  justify-content: space-evenly;
+  // justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
   align-items: flex-start;
+  justify-self: center;
   max-width: 1500px;
   width: 90vw;
   // min-height: 800px;

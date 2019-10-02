@@ -4,7 +4,7 @@ export default class Footer extends Component {
   render(){
     return(
       // <div style={{position: 'bottom'}}>
-      <div style={{bottom: '0px'}}>
+      <div class='footer'>
         My name is Mike. 
       </div>
     )
