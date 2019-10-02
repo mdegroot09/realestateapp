@@ -6,7 +6,6 @@ import {Provider} from 'react-redux'
 import store from './redux/store'
 import {HashRouter} from 'react-router-dom'
 import router from './router'
-import Footer from './Components/Footer/Footer'
 
 export default function App() {
   // Hide showing dropdown navbar menu on any non-navbar button click
@@ -32,7 +31,6 @@ export default function App() {
           <div className='App' onClick={() => showHideMenu()} onTouchMove={() => showHideMenu()}>
             {router}
           </div>
-          <Footer/>
         </div>
       </HashRouter>
     </Provider>

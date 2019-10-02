@@ -5,6 +5,7 @@ import ShowPosts from './ShowPosts'
 import {updatePosts} from '../../redux/reducer'
 import {connect} from 'react-redux'
 import AboutMini from '../About/AboutMini';
+import Footer from '../Footer/Footer'
 import axios from 'axios';
 
 class Home extends Component {
@@ -147,7 +148,8 @@ class Home extends Component {
               </div>
             </div>
           </div>
-          <AboutMini/>
+          <Footer/>
+          {/* <AboutMini/> */}
         </div>
       </div>
     )
