@@ -234,8 +234,8 @@ class Post extends Component {
             addComment={this.addComment}
             deleteComment={this.deleteComment}
           />
-          <Footer/>
         </div>
+        <Footer/>
       </div>
     )
   }

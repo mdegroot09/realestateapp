@@ -5,7 +5,7 @@ export default class Footer extends Component {
     return(
       // <div style={{position: 'bottom'}}>
       <div class='footer'>
-        My name is Mike. 
+        Website custom built by Mike De Groot.
       </div>
     )
   }
