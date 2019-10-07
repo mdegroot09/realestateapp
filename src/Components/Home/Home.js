@@ -149,7 +149,7 @@ class Home extends Component {
               </div>
             </div>
           </div>
-          {/* <AboutMini/> */}
+          <AboutMini/>
         </div>
         <Footer/>
       </div>
