@@ -114,6 +114,7 @@ class Home extends Component {
     })
 
     return(
+      <>
       <div className='homeMainDiv'>
         <Header/>
         <div className='tabs'>
@@ -148,10 +149,11 @@ class Home extends Component {
               </div>
             </div>
           </div>
-          <Footer/>
           {/* <AboutMini/> */}
         </div>
+        <Footer/>
       </div>
+      </>
     )
   }
 }
