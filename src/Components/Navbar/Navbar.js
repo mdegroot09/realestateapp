@@ -175,8 +175,10 @@ class Navbar extends Component {
               </button>
             </div>
             <img className='navLogo' 
-              style={{height: '200%', transform: `rotate(${window.scrollY * .30}deg)`}} 
-              src="https://www.rawshorts.com/freeicons/wp-content/uploads/2017/01/blue_spacepict10_1484336621-1.png" alt=""/>
+              src="https://simplejoys.s3.us-east-2.amazonaws.com/home-grey-1570541513027.png" alt=""/>
+            <img className='navLogo' 
+              style={{transform: `rotate(${window.scrollY * .30}deg)`, height: '80px'}} 
+              src="https://simplejoys.s3.us-east-2.amazonaws.com/circle%20outline-1570542097882.png" alt=""/>
             <div className='navLogo'>
               <h3 className='navTitle'>Real Estate</h3>
             </div>
