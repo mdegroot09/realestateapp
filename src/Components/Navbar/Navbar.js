@@ -180,7 +180,7 @@ class Navbar extends Component {
               style={{transform: `rotate(${window.scrollY * .30}deg)`, height: '80px'}} 
               src="https://simplejoys.s3.us-east-2.amazonaws.com/circle%20outline-1570542097882.png" alt=""/>
             <div className='navLogo'>
-              <h3 className='navTitle'>Real Estate</h3>
+              {/* <h3 className='navTitle'>Real Estate</h3> */}
             </div>
             <div className='navDivRight'>
               {this.props.userFirstName 
