@@ -117,14 +117,14 @@ class Home extends Component {
       <>
       <div className='homeMainDiv'>
         <Header/>
-        <div className='tabs'>
+        {/* <div className='tabs'>
           <button className={`homeTab ${this.state.activeTab === 'family' ? 'familyActive' : 'family'}`} 
             onClick={() => this.updateActiveTab('family')}>Family</button>
           <button className={`homeTab ${this.state.activeTab === 'makeup' ? 'makeupActive' : (this.state.activeTab === 'family' ? 'makeupFamilyActive' : 'makeupFoodActive')}`} 
             onClick={() => this.updateActiveTab('makeup')}>Makeup</button>
           <button className={`homeTab ${this.state.activeTab === 'food' ? 'foodActive' : 'food'}`} 
             onClick={() => this.updateActiveTab('food')}>Food</button>
-        </div>
+        </div> */}
         <div className='homeDuoDiv'>
           <div className='homeLeft' style={{position: 'relative'}}>
             <div className='postsList'>

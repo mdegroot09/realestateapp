@@ -158,7 +158,7 @@
 .postsList {
   width: inherit;
   background-color: white;
-  box-shadow: 2px 2px 3px rgb(82, 82, 82);
+  box-shadow: 1px 1px 5px rgb(82, 82, 82);
   background: white;
   display: flex;
   flex-direction: column;
@@ -262,9 +262,10 @@
   height: 100%;
   min-height: 300px;
   background-color: white;
-  box-shadow: 2px 2px 3px rgb(82, 82, 82);
+  box-shadow: 1px 1px 5px rgb(82, 82, 82);
   margin-left: 0;
-  margin-top: 5px;
+  margin-top: 7px;
+  margin-bottom: 7px;
   border-radius: 7px;
   display: flex;
   flex-direction: column;
