@@ -171,7 +171,7 @@ class Navbar extends Component {
               
               {/* Hamburger Button */}
               <button onClick={this.showHideMenu} className='hamburgerBtn'>
-                <img className='hamburger' src="https://cdn.onlinewebfonts.com/svg/img_53100.png" alt=""/>
+                <img className='hamburger' src="https://simplejoys.s3.us-east-2.amazonaws.com/hamburger%20icon-1570672731519.png" alt=""/>
               </button>
             </div>
             <img className='navLogo' 
