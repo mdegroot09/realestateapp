@@ -8,8 +8,7 @@ class Navbar extends Component {
   constructor(){
     super()
     this.state = {
-      scrollY: 0,
-      opacity: 1
+      scrollY: 0
     }
     this.timerIncrease = null
     this.timerDecrease = null
@@ -30,54 +29,14 @@ class Navbar extends Component {
       catch {}
     })
     .catch(e => console.log('server not working:', e)) // catch is user.firstName doesn't exist
-
-    let {scrollY} = window
-    let opacity = 0
-    if (scrollY > 0){
-      opacity = 0
-    } else {
-      opacity = 1
-    }
-    document.getElementsByClassName('navMainInit')[0].style.backgroundImage = `linear-gradient(rgba(19,19,19,${opacity}), rgba(0,0,119,${opacity}), rgba(15,15,170,${opacity}))`
-    this.setState({scrollY, opacity})
   }
 
   updateScroll = ()  => {
     let {scrollY} = window
     // fire change background only when changing to or from scrollY === 0
     if ((scrollY === 0 && this.state.scrollY > 0) || (scrollY > 0 && this.state.scrollY === 0)){
-      this.changeBackground(scrollY)
     }
     this.setState({scrollY})
-  }
-
-  changeBackground = (scrollY) => {
-    var opacity = this.state.opacity
-    if (scrollY <= 0){
-      window.clearTimeout(this.timerDecrease)
-      let increase = (opacity) => {
-        this.timerIncrease = setTimeout(() => {
-          opacity += .02
-          document.getElementsByClassName('navMainInit')[0].style.backgroundImage = `linear-gradient(rgba(19,19,19,${opacity}), rgba(0,0,119,${opacity}), rgba(15,15,170,${opacity}))`
-          this.setState({opacity})
-          if(opacity >= 1){return}
-          increase(opacity)
-        }, .01);
-      }
-      increase(opacity)
-    } else {
-      window.clearTimeout(this.timerIncrease)
-      let decrease = (opacity) => {
-        this.timerDecrease = setTimeout(() => {
-          opacity -= .02
-          document.getElementsByClassName('navMainInit')[0].style.backgroundImage = `linear-gradient(rgba(19,19,19,${opacity}), rgba(0,0,119,${opacity}), rgba(15,15,170,${opacity}))`
-          this.setState({opacity})
-          if(opacity <= 0){return}
-          decrease(opacity)
-        }, .01);
-      }
-      decrease(opacity)
-    }
   }
 
   startSpin = () => {
@@ -150,7 +109,6 @@ class Navbar extends Component {
   }
 
   render(){
-    let {opacity} = this.state
     window.onscroll = () => {
       this.updateScroll()
     } 
@@ -158,9 +116,7 @@ class Navbar extends Component {
     return(
       <div className='navMainParent'>
         <div className={'navMainInit'}>
-
-          {/* Hide second navbar background if opacity for navMainInit is at 1 */}
-          <div className={'navbarInit'} style={opacity >= 1 ? {backgroundImage: 'linear-gradient(transparent, transparent)'} : {backgroundImage: 'linear-gradient(#131313, #000077, rgb(15, 15, 170))'}}>
+          <div className={'navbarInit'}>
             <div className='navDivLeft'>
               <Link to='/' style={{textDecoration: 'none', alignItems: 'center'}}>
                 <button className='navBtn'>Home</button>
