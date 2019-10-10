@@ -119,7 +119,7 @@ class Home extends Component {
         <div className='homeDuoDiv'>
           <div className='homeLeft' style={{position: 'relative'}}>
             <div className='postsList'>
-              <h2 className='sectionTitle'>Posts</h2>
+              {/* <h2 className='sectionTitle'>Posts</h2> */}
               <input onChange={(e) => this.updateFilter(e.target.value)} className='filter' type="text" placeholder='search'/>
               <div className='showPosts'>
                 <NewPostLink/>
