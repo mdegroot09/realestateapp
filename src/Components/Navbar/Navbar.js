@@ -127,16 +127,18 @@ class Navbar extends Component {
               
               {/* Hamburger Button */}
               <button onClick={this.showHideMenu} className='hamburgerBtn'>
-                <img className='hamburger' src="https://simplejoys.s3.us-east-2.amazonaws.com/hamburger%20icon-1570672731519.png" alt=""/>
+                <img className='hamburger' src="https://simplejoys.s3.us-east-2.amazonaws.com/hb%20yellow-1570764988629.png" alt=""/>
               </button>
             </div>
             <img className='navLogo' 
               // src="https://simplejoys.s3.us-east-2.amazonaws.com/home-grey-1570541513027.png" alt=""/>
-              src="https://simplejoys.s3.us-east-2.amazonaws.com/home-grey-1570541513027-1570762620668.png" alt=""/>
+              // src="https://simplejoys.s3.us-east-2.amazonaws.com/home-grey-1570541513027-1570762620668.png" alt=""/>
+              src="https://simplejoys.s3.us-east-2.amazonaws.com/home-grey-1570541513027-1570764190519.png" alt=""/>
             <img className='navLogo' 
               style={{transform: `rotate(${window.scrollY * .30}deg)`, height: '78px'}} 
               // src="https://simplejoys.s3.us-east-2.amazonaws.com/circle%20outline-1570542097882.png" alt=""/>
-              src="https://simplejoys.s3.us-east-2.amazonaws.com/circle%20outline-1570762573678.png" alt=""/>
+              // src="https://simplejoys.s3.us-east-2.amazonaws.com/circle%20outline-1570762573678.png" alt=""/>
+              src="https://simplejoys.s3.us-east-2.amazonaws.com/circle%20outline-1570763994379.png" alt=""/>
             <div className='navLogo'>
               {/* <h3 className='navTitle'>Real Estate</h3> */}
             </div>

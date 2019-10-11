@@ -80,7 +80,7 @@
 
 .navBtn {
   margin: 0 10px;
-  color: $lightblue;
+  color: $yellow;
   background-color: transparent;
   border-color: transparent;
   font-family: 'Livvic', sans-serif;
@@ -103,7 +103,7 @@
 
 .navBtnHB {
   margin: 0 10px;
-  color: $gray;
+  color: $yellow;
   background-color: transparent;
   border-color: transparent;
   font-family: 'Livvic', sans-serif;
@@ -118,11 +118,11 @@
 .hamburgerBtn {
   border: none; 
   background: none; 
-  margin-top: '10px';
   display: none;
   outline: none;
   pointer-events: all;
   cursor: pointer;
+  padding-top: 5px;
 }
 
 .hamburger {
