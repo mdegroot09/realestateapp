@@ -12,7 +12,11 @@
 body {
   min-height: 100vh;
   width: calc(100vw - (100vw - 100%));
-  // background-image: linear-gradient(-90deg, rgb(234, 255, 253), #75b5ff);
+  background-image: linear-gradient(90deg, $teal, $lightblue);
+  // background-image: url('http://blog.gouldevans.com/wp-content/uploads/2017/02/img_3700.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   // background-color: #c7c8ca;
   display: flex;
   justify-content: center;
