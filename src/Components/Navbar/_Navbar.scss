@@ -10,7 +10,7 @@
 .navMainInit {
   width: inherit;
   height: inherit;
-  background-image: linear-gradient($blue, $darkblue, $blue);
+  // background-image: linear-gradient(black, $blue);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,7 +39,7 @@
   -o-transition: opacity 3s ease-in-out;
   transition: opacity 3s ease-in-out;
   position: relative;
-  // background-image: linear-gradient(#131313, #000077, $teal);
+  background-image: linear-gradient(#131313, #000077, $blue);
   border: none;
   pointer-events: none;
 }
@@ -80,7 +80,7 @@
 
 .navBtn {
   margin: 0 10px;
-  color: $gray;
+  color: $lightblue;
   background-color: transparent;
   border-color: transparent;
   font-family: 'Livvic', sans-serif;

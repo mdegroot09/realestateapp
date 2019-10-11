@@ -131,10 +131,12 @@ class Navbar extends Component {
               </button>
             </div>
             <img className='navLogo' 
-              src="https://simplejoys.s3.us-east-2.amazonaws.com/home-grey-1570541513027.png" alt=""/>
+              // src="https://simplejoys.s3.us-east-2.amazonaws.com/home-grey-1570541513027.png" alt=""/>
+              src="https://simplejoys.s3.us-east-2.amazonaws.com/home-grey-1570541513027-1570762620668.png" alt=""/>
             <img className='navLogo' 
-              style={{transform: `rotate(${window.scrollY * .30}deg)`, height: '80px'}} 
-              src="https://simplejoys.s3.us-east-2.amazonaws.com/circle%20outline-1570542097882.png" alt=""/>
+              style={{transform: `rotate(${window.scrollY * .30}deg)`, height: '78px'}} 
+              // src="https://simplejoys.s3.us-east-2.amazonaws.com/circle%20outline-1570542097882.png" alt=""/>
+              src="https://simplejoys.s3.us-east-2.amazonaws.com/circle%20outline-1570762573678.png" alt=""/>
             <div className='navLogo'>
               {/* <h3 className='navTitle'>Real Estate</h3> */}
             </div>
