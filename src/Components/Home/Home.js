@@ -114,38 +114,36 @@ class Home extends Component {
     })
 
     return(
-      // <div className='homeMainDiv' style={{width: 'inherit', paddingTop: '0px', backgroundImage: `url('https://simplejoys.s3.us-east-2.amazonaws.com/neighborhood-1570799839221.jpg')`}}>
-        <div className='homeMainDiv'>
-          <Header/>
-          <div className='homeDuoDiv' style={{marginTop: '5px'}}>
-            <div className='homeLeft' style={{position: 'relative'}}>
-              <div className='postsList'>
-                {/* <h2 className='sectionTitle'>Posts</h2> */}
-                <input onChange={(e) => this.updateFilter(e.target.value)} className='filter' type="text" placeholder='search'/>
-                <div className='showPosts'>
-                  <NewPostLink/>
-                  <ShowPosts
-                    showPostsArr={showPostsArr}
-                    miniPostsList={miniPostsList}
-                    postsMax={this.state.postsMax}
-                    viewMore={this.state.viewMore}
-                  />
+      <div className='homeMainDiv'>
+        <Header/>
+        <div className='homeDuoDiv' style={{marginTop: '5px'}}>
+          <div className='homeLeft' style={{position: 'relative'}}>
+            <div className='postsList'>
+              {/* <h2 className='sectionTitle'>Posts</h2> */}
+              <input onChange={(e) => this.updateFilter(e.target.value)} className='filter' type="text" placeholder='search'/>
+              <div className='showPosts'>
+                <NewPostLink/>
+                <ShowPosts
+                  showPostsArr={showPostsArr}
+                  miniPostsList={miniPostsList}
+                  postsMax={this.state.postsMax}
+                  viewMore={this.state.viewMore}
+                />
 
-                  {/* Show either 'View All' or 'View Less' button */}
-                  {!this.state.filter && tabSpecific.length > this.state.postsMax?
-                    (!this.state.viewMore ? 
-                      <div className='viewMoreBtn' onClick={() => this.setState({viewMore: true})}><span>View All</span></div> 
-                      : <div className='viewMoreBtn' onClick={() => this.setState({viewMore: false})}><span>View Less</span></div>)
-                        : <></>
-                  }
-                </div>
+                {/* Show either 'View All' or 'View Less' button */}
+                {!this.state.filter && tabSpecific.length > this.state.postsMax?
+                  (!this.state.viewMore ? 
+                    <div className='viewMoreBtn' onClick={() => this.setState({viewMore: true})}><span>View All</span></div> 
+                    : <div className='viewMoreBtn' onClick={() => this.setState({viewMore: false})}><span>View Less</span></div>)
+                      : <></>
+                }
               </div>
             </div>
-            <AboutMini/>
           </div>
-          <Footer/>
+          <AboutMini/>
         </div>
-      // </div>
+        <Footer/>
+      </div>
     )
   }
 }
