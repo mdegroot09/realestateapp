@@ -1,7 +1,13 @@
 @import '../../variables';
 
 .homeMainDiv {
-  margin: 100px 0 0 0;
+  // margin: 100px 0 0 0;
+  background-image: url('https://simplejoys.s3.us-east-2.amazonaws.com/neighborhood-1570799839221.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -10,7 +16,7 @@
   position: absolute;
   z-index: 0;
   max-width: 1500px;
-  width: 90%;
+  width: 100%;
 }
 
 .headerDiv {
@@ -42,7 +48,7 @@
 #subtitleFull {
   font-size: 20px;
   position: absolute;
-  top: 65px;
+  top: 150px;
   color: $gray;
   align-self: flex-end;
 }
@@ -50,7 +56,7 @@
 #subtitlePart1 {
   font-size: 20px;
   position: absolute;
-  top: 50px;
+  top: 150px;
   color: $gray;
   align-self: center;
   display: none;
@@ -59,7 +65,7 @@
 #subtitlePart2 {
   font-size: 20px;
   position: absolute;
-  top: 70px;
+  top: 170px;
   color: $gray;
   // color: $lightblue;
   align-self: flex-end;
@@ -309,23 +315,26 @@
   }
   #subtitleFull {
     display: none;
+    top: 130px;
+    margin-left: 20px;
   }
   #subtitlePart1 {
     display: inline;
     font-size: 20px;
+    top: 130px;
+    margin-left: 20px;
   }
   #subtitlePart2 {
     display: inline;
     font-size: 20px;
+    top: 130px;
+    margin-left: 20px;
   }
   .headerIcon{
     height: 80px;
   }
   .homeMainDiv{
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 80px;
+    padding-top: 80px;
   }
   .tabs{
     margin-left: 2px;
