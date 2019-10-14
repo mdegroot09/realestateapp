@@ -133,7 +133,8 @@ class Navbar extends Component {
             <img className='navLogo' 
               // src="https://simplejoys.s3.us-east-2.amazonaws.com/home-grey-1570541513027.png" alt=""/>
               // src="https://simplejoys.s3.us-east-2.amazonaws.com/home-grey-1570541513027-1570762620668.png" alt=""/>
-              src="https://simplejoys.s3.us-east-2.amazonaws.com/home-grey-1570541513027-1570764190519.png" alt=""/>
+              // src="https://simplejoys.s3.us-east-2.amazonaws.com/home-grey-1570541513027-1570764190519.png" alt=""/>
+              src="https://simplejoys.s3.us-east-2.amazonaws.com/logo-1571058290907.png" alt=""/>
             <img className='navLogo' 
               style={{transform: `rotate(${window.scrollY * .30}deg)`, height: '78px'}} 
               // src="https://simplejoys.s3.us-east-2.amazonaws.com/circle%20outline-1570542097882.png" alt=""/>
