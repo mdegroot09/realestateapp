@@ -116,7 +116,7 @@ class Home extends Component {
     return(
       <div className='homeMainDiv'>
         <Header/>
-        <div className='homeDuoDiv' style={{marginTop: '5px'}}>
+        <div className='homeDuoDiv' style={{marginTop: '10px'}}>
           <div className='homeLeft' style={{position: 'relative'}}>
             <div className='postsList' style={{paddingTop: '20px'}}>
               {/* <h2 className='sectionTitle'>Posts</h2> */}
