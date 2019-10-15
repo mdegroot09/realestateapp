@@ -118,8 +118,8 @@ class Home extends Component {
         <Header/>
         <div className='homeDuoDiv' style={{marginTop: '10px'}}>
           <div className='homeLeft' style={{position: 'relative'}}>
-            <div className='postsList' style={{paddingTop: '20px'}}>
-              {/* <h2 className='sectionTitle'>Posts</h2> */}
+            <div className='postsList'>
+              <h2 className='sectionTitle'>articles</h2>
               <input onChange={(e) => this.updateFilter(e.target.value)} className='filter' type="text" placeholder='search'/>
               <div className='showPosts'>
                 <NewPostLink/>
