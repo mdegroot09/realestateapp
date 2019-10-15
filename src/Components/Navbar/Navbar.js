@@ -119,10 +119,10 @@ class Navbar extends Component {
           <div className={'navbarInit'}>
             <div className='navDivLeft'>
               <Link to='/' style={{textDecoration: 'none', alignItems: 'center'}}>
-                <button className='navBtn'>Home</button>
+                <button className='navBtn'>home</button>
               </Link>
               <Link to='/about' style={{textDecoration: 'none', alignItems: 'center'}}>
-                <button className='navBtn'>About</button>
+                <button className='navBtn'>about</button>
               </Link>
               
               {/* Hamburger Button */}
@@ -148,12 +148,12 @@ class Navbar extends Component {
                       <div className='userImg' style={{backgroundImage: this.props.userImg ? `url(${this.props.userImg}` : ''}}></div> 
                       <button className='navBtn' style={{marginLeft: '0'}}>{this.props.userFirstName}</button>
                     </div>
-                    <button className='navBtn' onClick={this.logout}>Logout</button>
+                    <button className='navBtn' onClick={this.logout}>logout</button>
                   </>
                 : 
                   <>
-                    <button className='navBtn' onClick={() => this.showHideRegister(false)}>Register</button>
-                    <button className='navBtn' onClick={() => this.showHideLogin(false)}>Login</button>
+                    <button className='navBtn' onClick={() => this.showHideRegister(false)}>register</button>
+                    <button className='navBtn' onClick={() => this.showHideLogin(false)}>login</button>
                   </>
               }
             </div>
@@ -161,10 +161,10 @@ class Navbar extends Component {
         </div>
         <div className={`navMainInit hideMenu`} >
           <Link to='/' style={{textDecoration: 'none'}}>
-            <button className='navBtnHB' onClick={this.showHideMenu}>Home</button>
+            <button className='navBtnHB' onClick={this.showHideMenu}>home</button>
           </Link>
           <Link to={this.props.isAdmin ? '/newpost' : '/about'} style={{textDecoration: 'none'}}>
-            <button className='navBtnHB' onClick={this.showHideMenu}>{this.props.isAdmin ? 'New Post' : 'About'}</button>
+            <button className='navBtnHB' onClick={this.showHideMenu}>{this.props.isAdmin ? 'new post' : 'about'}</button>
           </Link>
           {this.props.userFirstName 
             ? 
@@ -174,12 +174,12 @@ class Navbar extends Component {
                   <button className='navBtnHB' style={{marginLeft: '0'}}>{this.props.userFirstName}</button>
                 </div>
                 {/* <button className='navBtnHB'>{this.props.userFirstName}</button> */}
-                <button className='navBtnHB' onClick={this.logout}>Logout</button>
+                <button className='navBtnHB' onClick={this.logout}>logout</button>
               </>
             : 
               <>
-                <button className='navBtnHB' onClick={() => this.showHideRegister(true)}>Register</button>
-                <button className='navBtnHB' onClick={() => this.showHideLogin(true)}>Login</button>
+                <button className='navBtnHB' onClick={() => this.showHideRegister(true)}>register</button>
+                <button className='navBtnHB' onClick={() => this.showHideLogin(true)}>login</button>
               </>
           }
         </div>
