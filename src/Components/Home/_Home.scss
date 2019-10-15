@@ -25,6 +25,7 @@
   align-items: center;
   position: relative;
   top: 10px;
+  margin-bottom: 20px;
 }
 
 .headerIcon {
@@ -142,7 +143,6 @@
 .homeDuoDiv {
   margin-top: 2px;
   display: flex;
-  // justify-content: space-evenly;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
