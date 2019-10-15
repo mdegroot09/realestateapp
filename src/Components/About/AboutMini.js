@@ -6,7 +6,7 @@ export default class AboutMini extends Component {
     return (
       <div className='homeRight'>
         <h2 className='sectionTitle'>About Me</h2>
-        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', width: 'calc(100% - 20px)'}}>
+        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'flex-start', width: 'calc(100% - 20px)'}}>
           <div className='miniPhoto' alt="" style={{alignSelf: 'flex-start', backgroundPosition: 'center top', backgroundSize: 'cover', width: '150px', height: '150px', margin: '10px',
             backgroundImage: `url('https://simplejoys.s3.us-east-2.amazonaws.com/Mike%20De%20Groot-1571059978671.jpg')`}}>
           </div>
