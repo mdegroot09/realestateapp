@@ -285,8 +285,8 @@
   border-radius: 5px;
   border: none;
   cursor: pointer;
-  background: $gray;
-  color: navy;
+  background: $blue;
+  color: white;
   font-family: 'Livvic', sans-serif;
   font-size: 17px;
   font-weight: 600;
@@ -295,6 +295,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-transform: lowercase;
 }
 
 .viewMoreBtn:active {
