@@ -64,7 +64,7 @@ class Comments extends Component {
     })
 
     return (
-      <div className='homeRight'>
+      <div className='homeRight' style={{marginTop: '10px'}}>
         <h2 className='sectionTitle'>Comments</h2>
         {commentElements[0] ? commentElements : ''}
         <div className='comment'>
