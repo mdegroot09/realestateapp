@@ -6,7 +6,7 @@ export default class About extends Component {
     return(
       <div style={{paddingTop: '80px', backgroundImage: `url('https://simplejoys.s3.us-east-2.amazonaws.com/neighborhood-1570799839221.jpg')`, width: '100vw'}}>
         <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', alignItems: 'center'}}>
-          <div style={{background: 'white', minHeight: 'calc(100vh - 152px)', width: 'calc(100% - 50px)', maxWidth: '800px', display: 'flex', justifyContent: 'center'}}>
+          <div style={{background: 'white', minHeight: 'calc(100vh - 152px)', width: 'calc(100% - 50px)', maxWidth: '800px', display: 'flex', justifyContent: 'center', borderRadius: '5px'}}>
             <div style={{width: 'calc(100% - 50px)', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'left'}}>
               <h1 className='sectionTitle'>about me</h1>
               <div style={{marginBottom: '50px'}}>
