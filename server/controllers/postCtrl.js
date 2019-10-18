@@ -23,7 +23,7 @@ module.exports = {
   },
 
   createPost: async (req, res) => {
-    let {postTitle, imageMain, date, family, makeup, food, elements} = req.body
+    let {postTitle, imageMain, date, draft, elements} = req.body
     let textArr = elements.map(element => {
       if (element.text){
         return element.text + ' '
@@ -34,7 +34,7 @@ module.exports = {
     let text = textArr.join('').trim()
 
     const db = req.app.get('db')
-    let postsArr = await db.postCtrl.createPost({postTitle, family, makeup, food, date, imageMain, text})
+    let postsArr = await db.postCtrl.createPost({postTitle, draft, date, imageMain, text})
     let post_id = postsArr[0].id
 
     createElement = (i) => {
@@ -69,7 +69,7 @@ module.exports = {
   },
 
   updatePost: async (req, res) => {
-    let {elements, family, makeup, food, postTitle, imageMain, id} = req.body
+    let {elements, draft, postTitle, imageMain, id} = req.body
     const db = req.app.get('db')
     let textArr = elements.map(element => {
       if (element.text){
@@ -80,7 +80,7 @@ module.exports = {
     })
     let text = textArr.join('').trim()
 
-    await db.postCtrl.updatePost({id, family, makeup, food, postTitle, imageMain, text})
+    await db.postCtrl.updatePost({id, draft, postTitle, imageMain, text})
     await db.postCtrl.deleteElements({id})
 
     createElement = (i) => {

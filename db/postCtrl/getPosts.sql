@@ -7,9 +7,7 @@
 --   posts.text as posttext, 
 --   posts.imagemain, 
 --   posts.title, 
---   posts.family, 
---   posts.makeup, 
---   posts.food,
+--   posts.draft,
 --   users.firstname,
 --   users.lastname
 -- from posts
@@ -23,9 +21,7 @@ select
   posts.text as posttext, 
   posts.imagemain, 
   posts.title, 
-  posts.family, 
-  posts.makeup, 
-  posts.food,
+  posts.draft,
   elements.id as elementid,
   elements.type as elementtype,
   elements.text as elementtext,

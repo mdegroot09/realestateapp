@@ -15,9 +15,7 @@ class EditPostElements extends Component {
     super()
     this.state = {
       elements: [], 
-      family: false,
-      makeup: false,
-      food: false
+      draft: false
     }
   }
   
@@ -31,12 +29,8 @@ class EditPostElements extends Component {
     .then(res => {
       this.props.updateTitle(res.data[0].title)
       this.props.updateImageMain(res.data[0].imagemain)
-      document.getElementById('familyTab').checked = res.data[0].family
-      document.getElementById('makeupTab').checked = res.data[0].makeup
-      document.getElementById('foodTab').checked = res.data[0].food
-      this.setState({family: res.data[0].family})
-      this.setState({makeup: res.data[0].makeup})
-      this.setState({food: res.data[0].food})
+      document.getElementById('draftTab').checked = res.data[0].draft
+      this.setState({draft: res.data[0].draft})
       this.updateElements(res.data)
     })
     .catch(err => console.log('err:', err))
@@ -128,8 +122,8 @@ class EditPostElements extends Component {
   }
 
   publishPost = () => {
-    let {elements, family, makeup, food} = this.state
-    this.props.updatePost(elements, family, makeup, food)
+    let {elements, draft} = this.state
+    this.props.updatePost(elements, draft)
   }
 
   updateTab = (name, id) => {

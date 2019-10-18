@@ -76,26 +76,20 @@ class NewPost extends Component {
     }
   }
 
-  publishPost = (elements, family, makeup, food) => {
-    if (!family && !makeup && !food){
-      alert('At least one of the tab options must be checked.')
-    } else {
-      let date = Date.parse(new Date())
-      let obj = {
-        elements: elements, 
-        family: family,
-        makeup: makeup,
-        food: food,
-        postTitle: this.state.postTitle.title, 
-        imageMain: this.state.imageMain,
-        date: `${date}`
-      }
-      axios.post('/api/createpost', obj)
-      .then(res => {
-        this.props.history.push(`/`)
-      })
-      .catch(err => console.log('err:', err))
+  publishPost = (elements, draft) => {
+    let date = Date.parse(new Date())
+    let obj = {
+      elements: elements, 
+      draft: draft,
+      postTitle: this.state.postTitle.title, 
+      imageMain: this.state.imageMain,
+      date: `${date}`
     }
+    axios.post('/api/createpost', obj)
+    .then(res => {
+      this.props.history.push(`/`)
+    })
+    .catch(err => console.log('err:', err))
   }
 
   render() {

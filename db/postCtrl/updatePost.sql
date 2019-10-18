@@ -1,7 +1,5 @@
 update posts
-set family = ${family}, 
-  makeup = ${makeup}, 
-  food = ${food}, 
+set draft = ${draft},
   title = ${postTitle}, 
   imagemain = ${imageMain},
   text = ${text}

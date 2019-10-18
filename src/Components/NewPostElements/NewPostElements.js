@@ -13,9 +13,7 @@ class NewPostElements extends Component {
     super()
     this.state = {
       elements: [], 
-      family: false,
-      makeup: false,
-      food: false
+      draft: false,
     }
   }
 
@@ -89,8 +87,8 @@ class NewPostElements extends Component {
   }
 
   publishPost = () => {
-    let {elements, family, makeup, food} = this.state
-    this.props.publishPost(elements, family, makeup, food)
+    let {elements, draft} = this.state
+    this.props.publishPost(elements, draft)
   }
 
   updateTab = (name, id) => {

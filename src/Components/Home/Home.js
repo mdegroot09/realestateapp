@@ -15,7 +15,7 @@ class Home extends Component {
       viewMore: false,
       postsMax: 5,
       filter: '',
-      activeTab: 'family',
+      activeTab: 'draft',
       miniPostsList: 0
     }
   }
@@ -42,9 +42,7 @@ class Home extends Component {
           title: data[i].title,
           date: data[i].postdatetime,
           text: data[i].posttext,
-          family: data[i].family,
-          makeup: data[i].makeup,
-          food: data[i].food,
+          draft: data[i].draft,
           imageMain: data[i].imagemain,
           comments: 
             data[i].commentid ?

@@ -4,9 +4,7 @@ const initialState = {
     title: '',
     date: '',
     text: '',
-    family: '',
-    makeup: '',
-    food: '',
+    draft: '',
     imageMain: '',
     comments: []
   }],

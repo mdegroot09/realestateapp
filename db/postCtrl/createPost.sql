@@ -1,16 +1,12 @@
 insert into posts (
   title,
-  family,
-  makeup,
-  food, 
+  draft,
   datetime,
   imagemain,
   text
 ) values (
   ${postTitle},
-  ${family},
-  ${makeup},
-  ${food},
+  ${draft},
   ${date},
   ${imageMain},
   ${text}

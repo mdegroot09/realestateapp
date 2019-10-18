@@ -80,25 +80,19 @@ class EditPost extends Component {
     }
   }
 
-  updatePost = (elements, family, makeup, food) => {
-    if (!family && !makeup && !food){
-      alert('At least one of the tab options must be checked.')
-    } else {
-      let obj = {
-        elements: elements, 
-        family: family,
-        makeup: makeup,
-        food: food,
-        postTitle: this.state.postTitle.title, 
-        imageMain: this.state.imageMain,
-        id: this.props.match.params.id
-      }
-      axios.put('/api/updatepost', obj)
-      .then(res => {
-        this.props.history.push(`/post/${this.props.match.params.id}`)
-      })
-      .catch(err => console.log('err:', err))
+  updatePost = (elements, draft) => {
+    let obj = {
+      elements: elements, 
+      draft: draft,
+      postTitle: this.state.postTitle.title, 
+      imageMain: this.state.imageMain,
+      id: this.props.match.params.id
     }
+    axios.put('/api/updatepost', obj)
+    .then(res => {
+      this.props.history.push(`/post/${this.props.match.params.id}`)
+    })
+    .catch(err => console.log('err:', err))
   }
 
   render() {

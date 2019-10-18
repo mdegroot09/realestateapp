@@ -32,9 +32,7 @@ class Post extends Component {
       post.title = res.data[0].title
       post.imageMain = res.data[0].imagemain
       post.date = res.data[0].postdatetime
-      post.family = res.data[0].family
-      post.makeup = res.data[0].makeup
-      post.food = res.data[0].food
+      post.draft = res.data[0].draft
       post.elements = res.data.map(element => {
         return {
           type: element.elementtype,
