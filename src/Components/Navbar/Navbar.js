@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {Link} from 'react-router-dom'
+import {Link, withRouter} from 'react-router-dom'
 import {connect} from 'react-redux'
 import {updateShowLogin, updateShowRegister, updateUsername, updateIsAdmin, updateUserImg} from '../../redux/reducer';
 import axios from 'axios'
@@ -197,4 +197,4 @@ const mapDispatchToProps = {
   updateShowLogin, updateShowRegister, updateUsername, updateIsAdmin, updateUserImg
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Navbar)
+export default connect(mapStateToProps, mapDispatchToProps)(withRouter(Navbar))
