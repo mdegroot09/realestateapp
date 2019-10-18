@@ -169,7 +169,8 @@
 
 @media(max-width: 800px){
   .navbarInit{
-    width: calc(100vw - 20px);
+    width: 98%;
+    // width: calc(100% - 20px);
   }
   .navBtn{
     display: none;
