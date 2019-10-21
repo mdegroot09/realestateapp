@@ -104,7 +104,7 @@ class Home extends Component {
 
     // Loop through posts and display each
     let tabSpecific = this.props.posts.filter(post => {
-      return post[this.state.activeTab]
+      return post[this.state.activeTab] && !post.draft
     })
 
     let showPostsArr = tabSpecific.filter(post => {
