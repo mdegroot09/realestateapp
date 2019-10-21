@@ -103,11 +103,15 @@ class Home extends Component {
     }
 
     // Loop through posts and display each
-    let tabSpecific = this.props.posts.filter(post => {
-      return post[this.state.activeTab] && !post.draft
+    let postsToShow = this.props.posts.filter(post => {
+      if (!this.props.isAdmin){
+        return !post.draft
+      } else {
+        return true
+      }
     })
 
-    let showPostsArr = tabSpecific.filter(post => {
+    let showPostsArr = postsToShow.filter(post => {
       return (post.title.toLowerCase().includes(this.state.filter) || post.text.toLowerCase().includes(this.state.filter))
     })
 
@@ -129,7 +133,7 @@ class Home extends Component {
                 />
 
                 {/* Show either 'View All' or 'View Less' button */}
-                {!this.state.filter && tabSpecific.length > this.state.postsMax?
+                {!this.state.filter && postsToShow.length > this.state.postsMax?
                   (!this.state.viewMore ? 
                     <div className='viewMoreBtn' onClick={() => this.setState({viewMore: true})}><span>View All</span></div> 
                     : <div className='viewMoreBtn' onClick={() => this.setState({viewMore: false})}><span>View Less</span></div>)
@@ -147,8 +151,8 @@ class Home extends Component {
 }
 
 const mapStateToProps = state => {
-  const {posts, googleID} = state
-  return {posts, googleID}
+  const {posts, googleID, isAdmin} = state
+  return {posts, googleID, isAdmin}
 }
 
 const mapDispatchToProps = {
