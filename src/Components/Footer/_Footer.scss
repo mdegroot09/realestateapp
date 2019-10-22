@@ -7,8 +7,15 @@
   height: 70px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 2px;
+}
+
+.footerIcons {
+  margin-left: 50px;
+  width: 70px;
+  display: flex;
+  justify-content: space-between;
 }
 
 @media(max-width: 400px){
