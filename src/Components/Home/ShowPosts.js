@@ -21,7 +21,7 @@ export default function ShowPosts (props) {
     let date = new Date(+post.date)
 
     return (
-      <Link to={`/post/${post.id}`} key={i} style={{textDecoration: 'none'}} className='miniPost'>
+      <Link to={`/post/${post.id}`} key={i} style={{textDecoration: 'none', backgroundColor: `${post.draft ? 'lightblue' : 'none'}`}} className='miniPost'>
         {i % 2 !== 0 ? <div className='miniPhoto' style={{backgroundImage: `url(${post.imageMain})`, backgroundPosition: 'center center', backgroundSize: 'cover'}} alt=""></div> : <></>}
         <div className='postDiv'>
           <h3 className='postTitle' style={i % 2 !== 0 ? {alignSelf: 'flex-end', textAlign: 'right'} : {}}>{post.title}</h3>
