@@ -19,7 +19,9 @@ export default class Footer extends Component {
             style={{height: '30px', cursor: 'pointer'}}
             alt="Link to Mike De Groot's GitHub"/>
         </div>
-        Website custom built by Mike De Groot.
+        <p className='footerText'>
+          Website custom built by Mike De Groot.
+        </p>
       </div>
     )
   }
