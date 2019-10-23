@@ -97,7 +97,7 @@ class NewPost extends Component {
 
     return(
       <div className='homeMainDiv' style={{backgroundColor: 'white', minHeight: 'calc(100vh - 80px)'}}>
-        <div className='postElement'>
+        <div className='postElement' style={{borderTopLeftRadius: '8px', borderTopRightRadius: '8px'}}>
           {!this.state.postTitle.editDraft 
             ?
             <h1 className='sectionTitle' style={{cursor: 'pointer'}} onClick={() => this.updateTitleView(true)}>
