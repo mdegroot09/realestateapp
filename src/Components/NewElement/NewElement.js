@@ -73,7 +73,7 @@ export default class NewElement extends Component {
     })
 
     return (
-      <div className='postElement' style={{borderBottom: 'none', zIndex: '1', backgroundImage: 'linear-gradient(90deg, #3FFFFB, #2b9fdd)'}}>
+      <div className='postElement' style={{borderBottom: 'none', zIndex: '1', backgroundColor: 'white'}}>
         <button className='showMoreBtn' onClick={this.showHideDropdown}>
           {!this.state.showOptions ? '+' : '-'}
         </button>
