@@ -23,7 +23,7 @@ export default function ImageDouble (props) {
       <div style={{width: 'inherit', display: 'flex', justifyContent: 'space-evenly', alignItems: 'center'}}>
         {props.element.url
           ?
-          <div style={{width: 'calc(50% - 15px)', display: 'flex', flexDirection: 'column', alignItems: 'center'}}
+          <div style={{width: 'calc(50% - 15px)', display: 'flex', flexDirection: 'column', alignItems: 'flex-end'}}
           onClick={props.element.viewDraft ? () => props.editElement(props.i) : () => {}}>
             <div className='newPostImg' style={{backgroundImage: `url('${props.element.url}')`}}></div>
             {/* <img className='newPostImg' style={{maxWidth: 'calc(100% - 15px)'}} src={props.element.url} alt='new post'/>  */}
@@ -56,7 +56,7 @@ export default function ImageDouble (props) {
         }
         {props.element.url2
           ?
-          <div style={{width: 'calc(50% - 15px)', display: 'flex', flexDirection: 'column', alignItems: 'center', marginLeft: '5px'}}
+          <div style={{width: 'calc(50% - 15px)', display: 'flex', flexDirection: 'column', alignItems: 'flex-start', marginLeft: '5px'}}
           onClick={props.element.viewDraft ? () => props.editElement(props.i) : () => {}}>
             <div className='newPostImg' style={{backgroundImage: `url('${props.element.url2}')`}}></div>
             {/* <img className='newPostImg' style={{maxWidth: 'calc(100% - 15px)'}} src={props.element.url2} alt='new post'/>  */}
