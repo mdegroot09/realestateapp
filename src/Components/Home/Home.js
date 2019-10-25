@@ -125,13 +125,18 @@ class Home extends Component {
               <input onChange={(e) => this.updateFilter(e.target.value)} className='filter' type="text" placeholder='search'/>
               <div className='showPosts'>
                 <NewPostLink/>
-                <ShowPosts
-                  showPostsArr={showPostsArr}
-                  miniPostsList={miniPostsList}
-                  postsMax={this.state.postsMax}
-                  viewMore={this.state.viewMore}
-                />
-
+                { showPostsArr[0].text ? 
+                  <ShowPosts
+                    showPostsArr={showPostsArr}
+                    miniPostsList={miniPostsList}
+                    postsMax={this.state.postsMax}
+                    viewMore={this.state.viewMore}
+                  />
+                  : 
+                  <div style={{width: '100%', height: '300px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                    <i>loading...</i>
+                  </div>
+                }
                 {/* Show either 'View All' or 'View Less' button */}
                 {!this.state.filter && postsToShow.length > this.state.postsMax?
                   (!this.state.viewMore ? 
