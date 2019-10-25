@@ -219,7 +219,7 @@ class Post extends Component {
                   : ''
                 }
               </h3>
-              <div className='showPost'>
+              <div className='showPost' style={{width: 'calc(100% - 20px)', maxWidth: '700px'}}>
                 <div style={{width: 'calc(100% - 50px)', maxWidth: '500px'}}>
                   <div className='mainPhoto' alt="" style={{backgroundPosition: 'center top', backgroundSize: 'cover', backgroundImage: `url(${post.imageMain})`}}></div>                
                 </div>
