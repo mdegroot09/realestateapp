@@ -177,10 +177,10 @@ class Post extends Component {
         return (
           <div className='postElement' style={{border: 'none'}} key={i}>
             <div style={{width: 'inherit', display: 'flex', justifyContent: 'space-evenly', alignItems: 'center'}}>
-              <div style={{width: 'calc(50% - 15px)', display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+              <div style={{width: 'calc(50% - 15px)', display: 'flex', flexDirection: 'column', alignItems: 'flex-end'}}>
                 <div className='newPostImg' style={{backgroundImage: `url('${element.url}')`}}></div>                
               </div>
-              <div style={{width: 'calc(50% - 15px)', display: 'flex', flexDirection: 'column', alignItems: 'center', marginLeft: '5px'}}>
+              <div style={{width: 'calc(50% - 15px)', display: 'flex', flexDirection: 'column', alignItems: 'flex-start', marginLeft: '5px'}}>
                 <div className='newPostImg' style={{backgroundImage: `url('${element.url2}')`}}></div>
               </div>
             </div>
