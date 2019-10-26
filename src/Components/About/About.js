@@ -18,7 +18,11 @@ export default class About extends Component {
                 </p>
                 <p>
                   Listen, the average person knows little about real estate. Like very little. I built this site to educate the average
-                  person on various real estate stuffs. 
+                  person on various real estate stuffs.   
+                </p>
+                <p>
+                  In short, please don't ask your sleezy realtor cousin for real estate advice or spend thousands for a real estate 
+                  investor's course... I'll tell you everything I know.
                 </p>
               </div>
             </div>
