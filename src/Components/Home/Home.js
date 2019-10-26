@@ -133,9 +133,8 @@ class Home extends Component {
                     viewMore={this.state.viewMore}
                   />
                   : 
-                  <div style={{width: '100%', height: '300px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
-                    <img className='rotateImg' src="https://simplejoys.s3.us-east-2.amazonaws.com/loading-1572010083625.png" style={{height: '100px'}} alt="loading icon"/>
-                    
+                  <div style={{width: '100%', height: '120px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
+                    <img className='rotateImg' src="https://simplejoys.s3.us-east-2.amazonaws.com/loading-1572010083625.png" style={{height: '50px'}} alt="loading icon"/>
                   </div>
                 }
                 {/* Show either 'View All' or 'View Less' button */}
