@@ -9,10 +9,10 @@
 }
 
 .authImg {
-  background-image: url('https://www.photohdx.com/images/2016/11/clean-white-paper-texture-background.jpg');
+  // background-image: url('https://www.photohdx.com/images/2016/11/clean-white-paper-texture-background.jpg');
+  background-color: rgba(0, 0, 0, 0.431);
   background-position: center;
   background-size: cover;
-  opacity: 0;
   height: inherit;
   width: inherit;
   position: fixed;
@@ -28,7 +28,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.753);
+  background-color: rgba(255, 255, 255, 0.938);
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgb(110, 110, 110);
 }

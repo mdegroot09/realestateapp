@@ -52,13 +52,6 @@ class Navbar extends Component {
     }
   }
 
-  resetSpinImg = () => {
-    let navLogo = document.getElementsByClassName('navLogo')[0]
-    navLogo.style.transition = ''
-    navLogo.style.transform = ''
-    this.spinImg = null
-  }
-
   showHideMenu = () => {
     let hideMenu = document.getElementsByClassName('hideMenu')[0]
     let showMenu = document.getElementsByClassName('showMenu')[0]
