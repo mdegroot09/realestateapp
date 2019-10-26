@@ -12,11 +12,12 @@ export default class About extends Component {
               <div className='aboutPhoto'></div>
               <div style={{}}>
                 <p>
-                  Real estate and software are my PB&J. I'm the self-proclaimed trusty realtor, title guy, foreclosure 
-                  auction & tax sale crasher, short sale winner, Excel magician, macro-writing guru, and web dev hobbyist.
+                  Real estate and software are my PB&J. A DIY-minded entrepreneur, I've gone from selling millions in homes to
+                  crashing foreclosure auctions & tax sales to writing Excel macros for business process optimizations and developing 
+                  websites in my spare time.
                 </p>
                 <p>
-                  Four kids
+                  Listen, the stereotypical real estate agent is a nuissance. Like for real. 
                 </p>
               </div>
             </div>
