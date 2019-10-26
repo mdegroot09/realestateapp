@@ -5,22 +5,7 @@ import GoogleLogin from 'react-google-login';
 import axios from 'axios'
 
 class Auths extends Component{
-  constructor(){
-    super()
-    this.state = {
-      opacity: 0
-    }
-  }
 
-  increaseOpacity = () => {
-    let {opacity} = this.state
-    let opacInterval = setInterval(() => {
-      if (opacity >= .75){clearInterval(opacInterval)}
-      opacity += .05
-      this.setState({opacity})
-    }, 15);
-  }
-  
   hideAuth = () => {
     this.props.updateShowLogin(false)
     this.props.updateShowRegister(false)
@@ -74,20 +59,12 @@ class Auths extends Component{
   }
   
   render(){
-    let {opacity} = this.state
-    let {showLogin, showRegister} = this.props
-    if (opacity === 0 && (showLogin || showRegister)){
-      this.increaseOpacity()
-    } else if (!showLogin && !showRegister && opacity > 0){
-      this.setState({opacity: 0})
-    }
-
     return (
       <>
         {this.props.showLogin || this.props.showRegister ? 
 
           (<div className='auths'>
-            <div className='authImg' style={{opacity: `${opacity}`}}></div>
+            <div className='authImg'></div>
             <div className='authBox'>
               {this.props.showLogin ? <h1 style={{marginBottom: '0'}}>Login</h1> : <h1 style={{marginBottom: '0'}}>Register</h1>}
               <h3 style={{margin: '5px 0 25px 0'}}>via Google Sign-In</h3>
