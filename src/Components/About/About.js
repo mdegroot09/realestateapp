@@ -13,11 +13,12 @@ export default class About extends Component {
               <div style={{}}>
                 <p>
                   Real estate and software are my PB&J. A DIY-minded entrepreneur, I've gone from selling millions in homes to
-                  crashing foreclosure auctions & tax sales to writing Excel macros for business process optimizations and developing 
+                  crashing foreclosure auctions & tax sales to writing Excel macros for optimizing business processes and developing 
                   websites in my spare time.
                 </p>
                 <p>
-                  Listen, the stereotypical real estate agent is a nuissance. Like for real. 
+                  Listen, the average person knows little about real estate. Like very little. I built this site to educate the average
+                  person on various real estate stuffs. 
                 </p>
               </div>
             </div>
