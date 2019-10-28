@@ -12,18 +12,22 @@ export default class About extends Component {
               <div className='aboutPhoto'></div>
               <div style={{}}>
                 <p>
-                  Real estate and software are my PB&J. A DIY-minded entrepreneur, I've gone from selling millions in homes to
-                  crashing foreclosure auctions & tax sales to writing Excel macros for optimizing business processes and developing 
+                  Real estate and software are my PB&J. A DIY-minded entrepreneur, I've gone from selling millions in homes and
+                  crashing foreclosure auctions & tax sales to optimizing business processes with Excel macros and developing 
                   websites in my spare time.
                 </p>
-                <p>
-                  Listen, the average person knows little about real estate. Like very little. I built this site to educate the average
+                {/* <p>
+                  Most people don't know much about real estate. I built this site to educate the average
                   person on various real estate stuffs.   
+                </p> */}
+                <p>
+                  
                 </p>
                 <p>
-                  In short, please don't ask your sleezy realtor cousin for real estate advice or spend thousands for a real estate 
+                  In short, don't go to your inexperienced realtor neighbor for real estate advice or spend thousands for a real estate 
                   investor's course... I'll tell you everything I know.
                 </p>
+                <h4 className='aboutContact'>Have a topic request? Email me at mikeadegroot@gmail.com</h4>
               </div>
             </div>
           </div>
