@@ -24,11 +24,17 @@ export default class About extends Component {
                 <p>
                   
                 </p>
-                <h4>Real Estate is a fragmented market</h4>
+                <h4>Dare I say it... Real Estate Agents really aren't that experienced</h4>
                 <p>
-                  I live in Utah where there are over 21,000 licensed real estate agents and not enough deals to go around. 
+                  In Utah, where I live, there are over 21,000 licensed real estate agents and not enough deals to go around. 
                   The average agent does an average of less than three transactions a year... That's not a whole lot of experience 
-                  to become an expert. Most industries show that the top 20% performers are doing 80% of the work. Real estate,
+                  for a so-called expert. Here it takes 120 hours of real estate courses and a test to become a licensed agent. 
+                  That's it. Aspiring cosmetologists get 2,000 hours of courses, an associate's degree, and a crazy state exam 
+                  before they can touch up your hair that'll grow back in two weeks. Seems lopsided since agents are likely dealing 
+                  with your greatest financial asset.
+                </p>
+                <p>
+                  Most industries show that the top 20% performers are doing 80% of the work. Real estate,
                   however, is completely different. Here in Utah, 75% of deals are done by agents doing 8 deals or less. 
                   So chances are your licensed agent brother-in-law, cousin, and neighbor's dog all don't really know how to help you 
                   avoid liability. 
