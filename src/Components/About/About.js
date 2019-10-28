@@ -26,12 +26,12 @@ export default class About extends Component {
                 </p>
                 <h4>Dare I say it... Real Estate Agents really aren't that experienced</h4>
                 <p>
-                  In Utah, where I live, there are over 21,000 licensed real estate agents and not enough deals to go around. 
-                  The average agent does an average of less than three transactions a year... That's not a whole lot of experience 
-                  for a so-called expert. Here it takes 120 hours of real estate courses and a test to become a licensed agent. 
+                  In Utah, where I live, there are over 21,000 licensed real estate agents and not enough deals for each of them. 
+                  The average agent closes less than three transactions a year... That's not a whole lot of experience for a so-called 
+                  expert. Here it takes 120 hours of real estate courses and a test to become a licensed agent. 
                   That's it. Aspiring cosmetologists get 2,000 hours of courses, an associate's degree, and a crazy state exam 
-                  before they can touch up your hair that'll grow back in two weeks. Seems lopsided since agents are likely dealing 
-                  with your greatest financial asset.
+                  before they can touch your hair that'll grow back in two weeks. Seems lopsided since agents are dealing with
+                  your greatest financial asset.
                 </p>
                 <p>
                   Most industries show that the top 20% performers are doing 80% of the work. Real estate,
