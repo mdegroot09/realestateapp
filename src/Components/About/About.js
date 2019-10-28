@@ -11,6 +11,7 @@ export default class About extends Component {
               <h1 className='sectionTitle'>about me</h1>
               <div className='aboutPhoto'></div>
               <div style={{}}>
+                <h4>My sweet spot</h4>
                 <p>
                   Real estate and software are my PB&J. A DIY-minded entrepreneur, I've gone from selling millions in homes and
                   crashing foreclosure auctions & tax sales to optimizing business processes with Excel macros and developing 
@@ -23,9 +24,17 @@ export default class About extends Component {
                 <p>
                   
                 </p>
+                <h4>Real Estate is a fragmented market</h4>
                 <p>
-                  In short, don't go to your inexperienced realtor neighbor for real estate advice or spend thousands for a real estate 
-                  investor's course... I'll tell you everything I know.
+                  I live in Utah where there are over 21,000 licensed real estate agents and not enough deals to go around. 
+                  The average agent does an average of less than three transactions a year... That's not a whole lot of experience 
+                  to become an expert. Most industries show that the top 20% performers are doing 80% of the work. Real estate,
+                  however, is completely different. Here in Utah, 75% of deals are done by agents doing 8 deals or less. 
+                  So chances are your licensed agent brother-in-law, cousin, and neighbor's dog all don't really know how to help you 
+                  avoid liability. 
+                </p>
+                <p>
+                  I'll tell you everything I know.
                 </p>
                 <h4 className='aboutContact'>Have a topic request? <a href="mailto:mikeadegroot@gmail.com?subject=Real Estate and Stuffs">Send me an email</a></h4>
               </div>
