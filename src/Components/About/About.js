@@ -27,7 +27,7 @@ export default class About extends Component {
                   In short, don't go to your inexperienced realtor neighbor for real estate advice or spend thousands for a real estate 
                   investor's course... I'll tell you everything I know.
                 </p>
-                <h4 className='aboutContact'>Have a topic request? Email me at mikeadegroot@gmail.com</h4>
+                <h4 className='aboutContact'>Have a topic request? <a href="mailto:mikeadegroot@gmail.com?subject=Real Estate and Stuffs">Send me an email</a></h4>
               </div>
             </div>
           </div>
