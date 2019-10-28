@@ -34,7 +34,7 @@ export default class About extends Component {
                   your greatest financial asset.
                 </p>
                 <p>
-                  Most industries show that the top 20% performers are doing 80% of the work. Real estate,
+                  Real estate is a fragmented market. Most industries show that the top 20% performers are doing 80% of the work. Real estate,
                   however, is completely different. Here in Utah, 75% of deals are done by agents doing 8 deals or less. 
                   So chances are your licensed agent brother-in-law, cousin, and neighbor's dog all don't really know how to help you 
                   avoid liability. 
