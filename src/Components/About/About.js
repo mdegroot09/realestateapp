@@ -4,7 +4,7 @@ import Footer from '../Footer/Footer'
 export default class About extends Component {
   render(){
     return(
-      <div className='homeMainDiv' style={{paddingTop: '80px', backgroundImage: `url('https://simplejoys.s3.us-east-2.amazonaws.com/neighborhood-1570799839221.jpg')`, height: 'auto', width: '100vw'}}>
+      <div className='homeMainDiv' style={{paddingTop: '80px', backgroundImage: `url('https://simplejoys.s3.us-east-2.amazonaws.com/neighborhood-1570799839221.jpg')`, height: 'auto', width: 'inherit'}}>
         <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', alignItems: 'center'}}>
           <div style={{background: 'white', minHeight: 'calc(100vh - 162px)', width: 'calc(100% - 20px)', maxWidth: '800px', display: 'flex', justifyContent: 'center', borderRadius: '5px', marginBottom: '10px'}}>
             <div style={{width: 'calc(100% - 50px)', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'left'}}>
@@ -34,7 +34,7 @@ export default class About extends Component {
                   your greatest financial asset.
                 </p>
                 <p>
-                  Real estate is a fragmented market. Most industries show that the top 20% performers are doing 80% of the work. Real estate,
+                  Real estate is a fragmented market. In most industries, the top 20% performers are doing 80% of the work. Real estate,
                   however, is completely different. Here in Utah, 75% of deals are done by agents doing 8 deals or less. 
                   So chances are your licensed agent brother-in-law, cousin, and neighbor's dog all don't really know how to help you 
                   avoid liability. 
