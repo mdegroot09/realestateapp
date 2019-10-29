@@ -28,7 +28,7 @@ export default class About extends Component {
                   dancing to "Baby Shark", my kids keep me moving. My wife and I are really just big kids, so obviously we went 
                   to Disney World and Harry Potter World for our 10-year anniversary. 
                 </p>
-                <h4>Dare I say it... Real Estate Agents really aren't that experienced</h4>
+                {/* <h4>Truth bomb... Real Estate Agents really aren't that experienced</h4>
                 <p>
                   In Utah, where I live, there are over 21,000 licensed real estate agents and not enough deals for each of them. 
                   The average agent closes less than three transactions a year... That's not a whole lot of experience for a so-called 
@@ -42,11 +42,11 @@ export default class About extends Component {
                   however, is completely different. Here in Utah, 75% of deals are done by agents doing 8 deals or less. 
                   So chances are your licensed agent brother-in-law, cousin, and neighbor's dog all don't really know how to help you 
                   avoid liability. 
-                </p>
+                </p> */}
                 <p>
                   I'll tell you everything I know.
                 </p>
-                <h4 className='aboutContact'>Have a topic request? <a href="mailto:mikeadegroot@gmail.com?subject=Real Estate and Stuffs">Send me an email</a></h4>
+                <h4 className='aboutContact'>Have a real estate question or blog request? <a href="mailto:mikeadegroot@gmail.com?subject=Real Estate and Stuffs">Send me an email</a></h4>
               </div>
             </div>
           </div>
