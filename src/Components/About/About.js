@@ -23,7 +23,7 @@ export default class About extends Component {
                 </p> */}
                 <h4>My crazy family</h4>
                 <p>
-                  My wife, Trisha, and I were married in 2009 and now have four insane kids ranging from 9 to 1. Getting tackled 
+                  My wife and I were married in 2009 and now have four insane kids ranging from 9 to 1. Getting tackled 
                   as I walk in the door is a daily occurrence. Whether it's practicing baseball or soccer, playing with dolls or 
                   dancing to "Baby Shark", my kids keep me moving. My wife and I are really just big kids, so naturally we went 
                   to Disney World and Harry Potter World for our 10-year anniversary. 
