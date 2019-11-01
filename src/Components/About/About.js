@@ -14,7 +14,7 @@ export default class About extends Component {
                 <h4>My sweet spot</h4>
                 <p>
                   Real estate and software are my PB&J. A DIY-minded entrepreneur, I've gone from selling millions in homes and
-                  crashing foreclosure auctions & tax sales to optimizing business processes with Excel macros and developing 
+                  crashing foreclosure auctions & tax sales to optimizing business processes through Excel macros and developing 
                   websites in my spare time.
                 </p>
                 {/* <p>
