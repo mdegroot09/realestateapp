@@ -22,14 +22,14 @@ export default class About extends Component {
                   person on various real estate stuffs.   
                 </p> */}
                 <h4>My crazy family</h4>
-                <p>
-                  My wife and I have four insane kids ranging from 9 to 1. I used to be normal doing normal things in my spare time.
-                  Now I play with dolls, dance to "Baby Shark", and cry in movies. Fatherhood is fantastic.
-                </p>
                 <p>  
                   Trisha and I just celebrated our 10-year anniversary at Harry Potter World. We were like kids in a candy store.
-                  From doing simple things like getting wands at Olivander's to walking onto the Hogwarts Express, our excitement may have
+                  From getting wands at Olivander's to walking onto the Hogwarts Express, our excitement may have
                   gone a little overboard.
+                </p>
+                <p>
+                  We have four insane kids ranging from 9 to 1. I used to be normal doing normal things in my spare time.
+                  Now I play with dolls, dance to "Baby Shark", and cry in movies. Fatherhood is fantastic.
                 </p>
                 {/* <h4>Truth bomb... Real Estate Agents really aren't that experienced</h4>
                 <p>
