@@ -27,9 +27,9 @@ export default class About extends Component {
                   Now I play with dolls, dance to "Baby Shark", and cry in movies. Fatherhood is fantastic.
                 </p>
                 <p>  
-                  Trisha and I just celebrated our 10-year anniversary at Harry Potter World. Normal people like the Harry Potter series. My 
-                  wife is a total Harry Potter nerd. She cried walking into Diagon Alley, getting her wand at Olivander's, and getting onto 
-                  the Hogwarts Express.
+                  Trisha and I just celebrated our 10-year anniversary at Harry Potter World. I'd say that Trisha's a casual fan, 
+                  but I'd be lying. She's a total Harry Potter nerd. Normal people who go to Diagon Alley or get onto the 
+                  Hogwarts Express might get a little excited. Not Trisha. She cried and about peed herself at every little thing. 
                 </p>
                 {/* <h4>Truth bomb... Real Estate Agents really aren't that experienced</h4>
                 <p>
