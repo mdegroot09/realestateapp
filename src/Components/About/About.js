@@ -23,11 +23,11 @@ export default class About extends Component {
                 </p> */}
                 <h4>My crazy family</h4>
                 <p>
-                  My wife and I have four insane kids ranging from 9 to 1. I used to be normal and have a lot of spare time.
-                  Now I play with dolls, dance to "Baby Shark", and cry in movies.
-                  Getting tackled 
-                  as I walk in the door is a daily occurrence. Whether it's practicing baseball or soccer, playing with dolls or 
-                  dancing to "Baby Shark", my kids keep me moving. My wife and I are really just big kids, so naturally we went 
+                  My wife and I have four insane kids ranging from 9 to 1. I used to be normal doing normal things in my spare time.
+                  Now I play with dolls, dance to "Baby Shark", and cry in movies. Fatherhood is fantastic.
+                </p>
+                <p>  
+                  My wife and I are really just big kids, so naturally we went 
                   to Disney World and Harry Potter World for our 10-year anniversary. 
                 </p>
                 {/* <h4>Truth bomb... Real Estate Agents really aren't that experienced</h4>
