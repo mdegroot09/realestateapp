@@ -23,9 +23,8 @@ export default class About extends Component {
                 </p> */}
                 <h4>My crazy family</h4>
                 <p>
-                  My wife and I have four insane kids ranging from 9 to 1. I never realized how much spare time I used to have.
-                  Now I find myself playing with dolls, dancing to "Baby Shark", and
-                  crying in movies.
+                  My wife and I have four insane kids ranging from 9 to 1. I used to be normal and have a lot of spare time.
+                  Now I play with dolls, dance to "Baby Shark", and cry in movies.
                   Getting tackled 
                   as I walk in the door is a daily occurrence. Whether it's practicing baseball or soccer, playing with dolls or 
                   dancing to "Baby Shark", my kids keep me moving. My wife and I are really just big kids, so naturally we went 
