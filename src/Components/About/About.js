@@ -27,8 +27,9 @@ export default class About extends Component {
                   Now I play with dolls, dance to "Baby Shark", and cry in movies. Fatherhood is fantastic.
                 </p>
                 <p>  
-                  My wife and I are really just big kids, so naturally we went 
-                  to Disney World and Harry Potter World for our 10-year anniversary. 
+                  Trisha and I just celebrated our 10-year anniversary at Harry Potter World. Normal people like the Harry Potter series. My 
+                  wife is a total Harry Potter nerd. She cried walking into Diagon Alley, getting her wand at Olivander's, and getting onto 
+                  the Hogwarts Express.
                 </p>
                 {/* <h4>Truth bomb... Real Estate Agents really aren't that experienced</h4>
                 <p>
