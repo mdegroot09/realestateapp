@@ -23,7 +23,7 @@ export default class About extends Component {
                 </p> */}
                 <h4>My crazy family</h4>
                 <p>  
-                  Trisha and I just celebrated our 10-year anniversary at Harry Potter World. We were like kids in a candy store.
+                  Trisha and I celebrated our 10-year anniversary this year at Harry Potter World. We were like kids in a candy store.
                   From getting wands at Olivander's to walking onto the Hogwarts Express, our excitement may have
                   gone a little overboard.
                 </p>
