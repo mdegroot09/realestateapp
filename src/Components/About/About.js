@@ -21,13 +21,8 @@ export default class About extends Component {
                   person on various real estate stuffs.   
                 </p> */}
                 <h4>My crazy family</h4>
-                <p>  
-                  Trisha and I celebrated our 10-year anniversary this year at Harry Potter World. We were like kids in a candy store.
-                  From getting wands at Olivander's to walking onto the Hogwarts Express, our excitement may have
-                  gone a little overboard.
-                </p>
                 <p>
-                  We have four insane kids ranging from 9 to 1. I used to be a normal person doing normal things.
+                  My wife and I have four insane kids ranging from 9 to 1. I used to be a normal person doing normal things.
                   Now I play with dolls, dance to "Baby Shark", and cry in movies.
                 </p>
                 {/* <h4>Truth bomb... Real Estate Agents really aren't that experienced</h4>
