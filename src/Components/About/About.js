@@ -16,14 +16,15 @@ export default class About extends Component {
                   Real estate and software development are my PB and J. I've sold millions in homes, crashed several foreclosure auctions 
                   and tax sales, and developed software and websites in various coding languages.
                 </p>
-                {/* <p>
-                  Most people don't know much about real estate. I built this site to educate the average
-                  person on various real estate stuffs.   
-                </p> */}
                 <h4>My crazy family</h4>
                 <p>
                   My wife and I have four insane kids ranging from 9 to 1. I used to be a normal person doing normal things.
                   Now I play with dolls, dance to "Baby Shark", and cry in movies.
+                </p>
+                <h4>My why</h4>
+                <p>
+                  Honestly, I built this website to just write some code. I might as well add some value and write about real estate
+                  stuffs. I'll be happy if my mother reads it.
                 </p>
                 {/* <h4>Truth bomb... Real Estate Agents really aren't that experienced</h4>
                 <p>
