@@ -13,9 +13,8 @@ export default class About extends Component {
               <div style={{}}>
                 <h4>My sweet spot</h4>
                 <p>
-                  Real estate and software are my PB and J. A DIY-minded entrepreneur, I've gone from selling millions in homes and
-                  crashing foreclosure auctions and tax sales to optimizing business processes through Excel macros and developing 
-                  websites in my spare time.
+                  Real estate and software development are my PB and J. I've sold millions in homes, crashed several foreclosure auctions 
+                  and tax sales, and developed software and websites in various coding languages.
                 </p>
                 {/* <p>
                   Most people don't know much about real estate. I built this site to educate the average
