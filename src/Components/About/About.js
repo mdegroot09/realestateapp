@@ -11,19 +11,19 @@ export default class About extends Component {
               <h1 className='sectionTitle'>about me</h1>
               <div className='aboutPhoto'></div>
               <div style={{}}>
-                <h4>My sweet spot</h4>
+                <h4>Work history</h4>
                 <p>
                   Real estate and software development are my PB and J. I've sold millions in homes, crashed several foreclosure auctions 
                   and tax sales, and developed software and websites in various coding languages.
                 </p>
-                <h4>My crazy family</h4>
+                <h4>Family 'n stuff</h4>
                 <p>
                   My wife and I have four insane kids ranging from 9 to 1. I used to be a normal person doing normal things.
                   Now I play with dolls, dance to "Baby Shark", and cry in movies.
                 </p>
                 <h4>My why</h4>
                 <p>
-                  Honestly, I built this website to just write some code. I might as well add some value and write about real estate
+                  I only built this website to just write some code. I might as well add some value and write about real estate
                   stuffs. I'll be happy if my mother reads it.
                 </p>
                 {/* <h4>Truth bomb... Real Estate Agents really aren't that experienced</h4>
