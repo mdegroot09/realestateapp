@@ -11,7 +11,7 @@ export default class About extends Component {
               <h1 className='sectionTitle'>about me</h1>
               <div className='aboutPhoto'></div>
               <div style={{}}>
-                <h4>Work history</h4>
+                <h4>How I'm not homeless</h4>
                 <p>
                   Real estate and software development are my PB and J. I've sold millions in homes, crashed several foreclosure auctions 
                   and tax sales, and developed software and websites in various coding languages.
@@ -24,7 +24,7 @@ export default class About extends Component {
                 <h4>My why</h4>
                 <p>
                   I only built this website to just write some code. I might as well add some value and write about real estate
-                  stuffs. I'll be happy if my mother reads it.
+                  stuffs. I'll be surprised if my mother reads it.
                 </p>
                 {/* <h4>Truth bomb... Real Estate Agents really aren't that experienced</h4>
                 <p>
