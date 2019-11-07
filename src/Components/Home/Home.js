@@ -133,7 +133,7 @@ class Home extends Component {
                     viewMore={this.state.viewMore}
                   />
                   : 
-                  <div style={{width: '100%', height: '120px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
+                  <div style={{width: '100%', minHeight: 'calc(100vh - 744px)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', marginTop: '20px', marginBottom: '20px'}}>
                     <img className='rotateImg' src="https://simplejoys.s3.us-east-2.amazonaws.com/loading-1572010083625.png" style={{height: '50px'}} alt="loading icon"/>
                   </div>
                 }
