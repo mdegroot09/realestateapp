@@ -10,7 +10,7 @@ class NewPostLink extends Component {
           <div className='viewMoreBtn' onClick={() => this.props.history.push('/newpost')} style={{backgroundColor: '#2b9fdd', position: 'absolute', top: '20px', right: '15px', margin: '0'}}>
             New Post
           </div>
-        : <></>
+        : <div></div>
         }
       </>
     )
