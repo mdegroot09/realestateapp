@@ -26,10 +26,10 @@ export default class About extends Component {
                   Now I play with dolls, dance to "Baby Shark", and cry in movies.
                 </p>
                 <h3 className='aboutSubHeader'>
-                  My why
+                  My porkay
                 </h3>
                 <p className='aboutParagraph'>
-                  I just wanted to write some code. I guess I'll attempt to add value by writing about real estate, but
+                  I built this site just so I could write some code. I guess I'll attempt to add value by writing about real estate, but
                   I'll be happy if my mother reads it.
                 </p>
                 {/* <h3>Truth bomb... Real Estate Agents really aren't that experienced</h3>
@@ -46,7 +46,7 @@ export default class About extends Component {
                   So chances are your licensed agent brother-in-law, cousin, and neighbor's dog all don't really know how to help you 
                   avoid liability. 
                 </p> */}
-                <p className='aboutContact'>Have a real estate question or blog request? <a href="mailto:mikeadegroot@gmail.com?subject=Real Estate and Stuffs">Send me an email</a></p>
+                <p className='aboutContact'>Have a real estate question or blog request? Send an email to <a href="mailto:mikeadegroot@gmail.com?subject=Real Estate and Stuffs">mikeadegroot@gmail.com</a></p>
               </div>
             </div>
           </div>
