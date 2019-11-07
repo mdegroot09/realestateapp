@@ -10,7 +10,7 @@ export default class About extends Component {
             <div style={{width: 'calc(100% - 50px)', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'left'}}>
               <h1 className='sectionTitle'>about me</h1>
               <div className='aboutPhoto'></div>
-              <div style={{}}>
+              <div>
                 <h4>How I'm not homeless</h4>
                 <p>
                   Real estate and software development are my PB and J. I've sold millions in homes, crashed several foreclosure auctions 
@@ -21,10 +21,10 @@ export default class About extends Component {
                   My wife and I have four insane kids ranging from 9 to 1. I used to be a normal person doing normal things.
                   Now I play with dolls, dance to "Baby Shark", and cry in movies.
                 </p>
-                <h4>My why</h4>
+                <h4>Why I built this site</h4>
                 <p>
-                  I only built this website so I could write some code. I might as well add some value and write about real estate
-                  stuffs. I'll be surprised if my mother reads it.
+                  I just wanted to write some code. I guess I'll attempt to add value by writing real estate stuffs, but
+                  I'll be happy if my mother reads it.
                 </p>
                 {/* <h4>Truth bomb... Real Estate Agents really aren't that experienced</h4>
                 <p>
@@ -40,9 +40,6 @@ export default class About extends Component {
                   So chances are your licensed agent brother-in-law, cousin, and neighbor's dog all don't really know how to help you 
                   avoid liability. 
                 </p> */}
-                <p>
-                  I'll tell you everything I know.
-                </p>
                 <h4 className='aboutContact'>Have a real estate question or blog request? <a href="mailto:mikeadegroot@gmail.com?subject=Real Estate and Stuffs">Send me an email</a></h4>
               </div>
             </div>
