@@ -11,22 +11,28 @@ export default class About extends Component {
               <h1 className='sectionTitle'>about me</h1>
               <div className='aboutPhoto'></div>
               <div>
-                <h4>How I'm not homeless</h4>
-                <p>
+                <h3 className='aboutSubHeader'>
+                  How I'm not homeless
+                </h3>
+                <p className='aboutParagraph'>
                   Real estate and software development are my PB and J. I've sold millions in homes, crashed several foreclosure auctions 
                   and tax sales, and developed software and websites in various coding languages.
                 </p>
-                <h4>The whole fam damily</h4>
-                <p>
+                <h3 className='aboutSubHeader'>
+                  The whole fam damily
+                </h3>
+                <p className='aboutParagraph'>
                   My wife and I have four insane kids ranging from 9 to 1. I used to be a normal person doing normal things.
                   Now I play with dolls, dance to "Baby Shark", and cry in movies.
                 </p>
-                <h4>Why I built this site</h4>
-                <p>
-                  I just wanted to write some code. I guess I'll attempt to add value by writing real estate stuffs, but
+                <h3 className='aboutSubHeader'>
+                  My why
+                </h3>
+                <p className='aboutParagraph'>
+                  I just wanted to write some code. I guess I'll attempt to add value by writing about real estate, but
                   I'll be happy if my mother reads it.
                 </p>
-                {/* <h4>Truth bomb... Real Estate Agents really aren't that experienced</h4>
+                {/* <h3>Truth bomb... Real Estate Agents really aren't that experienced</h3>
                 <p>
                   In Utah, where I live, there are over 21,000 licensed real estate agents and not enough deals for each of them. 
                   The average agent closes less than three transactions a year... That's not a whole lot of experience for a so-called 
@@ -40,7 +46,7 @@ export default class About extends Component {
                   So chances are your licensed agent brother-in-law, cousin, and neighbor's dog all don't really know how to help you 
                   avoid liability. 
                 </p> */}
-                <h4 className='aboutContact'>Have a real estate question or blog request? <a href="mailto:mikeadegroot@gmail.com?subject=Real Estate and Stuffs">Send me an email</a></h4>
+                <p className='aboutContact'>Have a real estate question or blog request? <a href="mailto:mikeadegroot@gmail.com?subject=Real Estate and Stuffs">Send me an email</a></p>
               </div>
             </div>
           </div>
