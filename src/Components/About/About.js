@@ -11,6 +11,9 @@ export default class About extends Component {
               <h1 className='sectionTitle'>about me</h1>
               <div className='aboutPhoto'></div>
               <div>
+                {/* <p className='aboutParagraph'>
+                  
+                </p> */}
                 <h3 className='aboutSubHeader'>
                   How I'm not homeless
                 </h3>
@@ -26,11 +29,11 @@ export default class About extends Component {
                   Now I play with dolls, dance to "Baby Shark", and cry in movies.
                 </p>
                 <h3 className='aboutSubHeader'>
-                  My porkay
+                  My por kay
                 </h3>
                 <p className='aboutParagraph'>
-                  I built this site just so I could write some code. I guess I'll attempt to add value by writing about real estate, but
-                  I'll be happy if my mother reads it.
+                  I built this site just so I could write some code. Writing about real estate is fun although I'm not necessarily looking
+                  for a following. I'll be happy if my mother reads it.
                 </p>
                 {/* <h3>Truth bomb... Real Estate Agents really aren't that experienced</h3>
                 <p>
