@@ -11,9 +11,9 @@ export default class About extends Component {
               <h1 className='sectionTitle'>about me</h1>
               <div className='aboutPhoto'></div>
               <div>
-                {/* <p className='aboutParagraph'>
-                  
-                </p> */}
+                <h3 style={{}}>
+                  Husband. Father. Realtor. Title guy. Software developer.
+                </h3>
                 <h3 className='aboutSubHeader'>
                   How I'm not homeless
                 </h3>
