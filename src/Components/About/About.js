@@ -32,8 +32,8 @@ export default class About extends Component {
                   My por kay
                 </h3>
                 <p className='aboutParagraph'>
-                  I built this site just so I could write some code. Writing about real estate is fun although I'm not necessarily looking
-                  for a following. I'll be happy if my mother reads it.
+                  I built this site just so I could write some code. Writing a real estate blog is my attempt to add value, although 
+                  my college English professors would likely suggest otherwise. At this point, I'll be happy if my mother reads it.
                 </p>
                 {/* <h3>Truth bomb... Real Estate Agents really aren't that experienced</h3>
                 <p>
