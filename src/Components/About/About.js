@@ -11,9 +11,19 @@ export default class About extends Component {
               <h1 className='sectionTitle'>about me</h1>
               <div className='aboutPhoto'></div>
               <div>
-                <h3 style={{}}>
-                  Husband. Father. Realtor. Title guy. Software developer.
-                </h3>
+                <div style={{width: '100%', textAlign: 'center'}}>
+                  <h3 style={{fontSize: '22px'}}>
+                    Husband
+                    <img style={{height: '10px', margin: '3px 8px'}} src="https://simplejoys.s3.us-east-2.amazonaws.com/dot-1573222736999.png" alt="dot icon"/> 
+                    Father
+                    <img style={{height: '10px', margin: '3px 8px'}} src="https://simplejoys.s3.us-east-2.amazonaws.com/dot-1573222736999.png" alt="dot icon"/> 
+                    Realtor
+                    <img style={{height: '10px', margin: '3px 8px'}} src="https://simplejoys.s3.us-east-2.amazonaws.com/dot-1573222736999.png" alt="dot icon"/> 
+                    Title guy
+                    <img style={{height: '10px', margin: '3px 8px'}} src="https://simplejoys.s3.us-east-2.amazonaws.com/dot-1573222736999.png" alt="dot icon"/> 
+                    Software developer
+                  </h3>
+                </div>
                 <h3 className='aboutSubHeader'>
                   How I'm not homeless
                 </h3>
