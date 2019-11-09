@@ -17,7 +17,7 @@ export default class About extends Component {
                     <img style={{height: '10px', margin: '3px 8px'}} src="https://simplejoys.s3.us-east-2.amazonaws.com/dot-1573222736999.png" alt="dot icon"/> 
                     Father
                     <img style={{height: '10px', margin: '3px 8px'}} src="https://simplejoys.s3.us-east-2.amazonaws.com/dot-1573222736999.png" alt="dot icon"/> 
-                    Realtor
+                    Realtor Manager
                     <img style={{height: '10px', margin: '3px 8px'}} src="https://simplejoys.s3.us-east-2.amazonaws.com/dot-1573222736999.png" alt="dot icon"/> 
                     Title guy
                     <img style={{height: '10px', margin: '3px 8px'}} src="https://simplejoys.s3.us-east-2.amazonaws.com/dot-1573222736999.png" alt="dot icon"/> 
@@ -25,18 +25,20 @@ export default class About extends Component {
                   </h3>
                 </div>
                 <h3 className='aboutSubHeader'>
-                  How I'm not homeless
+                  What I do
                 </h3>
                 <p className='aboutParagraph'>
                   Real estate and software development are my PB and J. I've sold millions in homes, crashed several foreclosure auctions 
-                  and tax sales, and developed software and websites in various coding languages.
+                  and tax sales, and developed software and websites in various coding languages. Now I manage real estate agents for
+                  real estate tech company <a style={{textDecoration: 'none'}} href="https://www.homie.com">Homie</a>, the future of 
+                  real estate buying and selling.
                 </p>
                 <h3 className='aboutSubHeader'>
                   The whole fam damily
                 </h3>
                 <p className='aboutParagraph'>
                   My wife and I have four insane kids ranging from 9 to 1. I used to be a normal person doing normal things.
-                  Now I play with dolls, dance to "Baby Shark", and cry in movies.
+                  Now I play with dolls, dance to "Baby Shark", and cry at movies.
                 </p>
                 <h3 className='aboutSubHeader'>
                   My por kay
