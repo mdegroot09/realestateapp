@@ -147,7 +147,9 @@ class Home extends Component {
               </div>
             </div>
           </div>
-          <AboutMini/>
+          <AboutMini
+            miniPostsList={miniPostsList}
+          />
         </div>
         <Footer/>
       </div>
