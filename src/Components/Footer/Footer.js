@@ -22,6 +22,7 @@ export default class Footer extends Component {
         <p className='footerText'>
           Website custom built by Mike De Groot.
         </p>
+        <div className="footerIcons footerHide"></div>
       </div>
     )
   }
