@@ -18,6 +18,10 @@ export default class Footer extends Component {
             onClick={() => {window.location.href = 'https://github.com/mdegroot09'}}
             style={{height: '30px', cursor: 'pointer', marginRight: '10px'}}
             alt="Link to Mike De Groot's GitHub"/>
+          <img src="https://simplejoys.s3.us-east-2.amazonaws.com/gmail%20logo-1574173950101.png" 
+            onClick={() => {window.location.href = 'mailto:mikeadegroot@gmail.com?subject=Real Estate and Stuffs'}}
+            style={{height: '30px', cursor: 'pointer', marginRight: '10px'}}
+            alt="Link to Mike De Groot's Gmail"/>
         </div>
         <p className='footerText'>
           Website custom built by Mike De Groot.
