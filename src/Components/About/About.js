@@ -31,7 +31,7 @@ export default class About extends Component {
                 <p className='aboutParagraph'>
                   Real estate and software development are my PB and J. I've sold millions in homes, crashed several foreclosure auctions 
                   and tax sales, and developed software and websites in various coding languages. Now I work for a 
-                  real estate tech company called <a style={{textDecoration: 'none'}} href="https://www.homie.com">Homie</a>, which I believe to
+                  real estate tech company called <a style={{textDecoration: 'none', fontWeight: '600'}} href="https://www.homie.com">Homie</a>, which I believe to
                   be the future of real estate buying and selling.
                 </p>
                 <h3 className='aboutSubHeader'>
