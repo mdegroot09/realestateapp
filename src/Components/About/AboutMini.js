@@ -3,7 +3,7 @@ import {withRouter} from 'react-router-dom'
 
 class AboutMini extends Component {
   render(){
-    var text = "Real estate and software development are my PB and J. I've sold millions in homes, crashed several foreclosure auctions and tax sales, and developed software and websites in various coding languages. Now I manage real estate agents for real estate tech company Homie, which I believe to be the future of real estate buying and selling."
+    var text = "Real estate and software development are my PB and J. I've sold millions in homes, crashed several foreclosure auctions and tax sales, and developed software and websites in various coding languages. Now I work for a real estate tech company called Homie, which I believe to be the future of real estate buying and selling."
     let arr = text.split('')
 
     // Condense post and end with '...' if arr > indexStart
